@@ -1,5 +1,8 @@
 package br.com.dio;
 
+/*  Calcule o valor final de um empréstimo, a partir do valor solicitado. Taxas e parcelas influenciam.
+	Defina arbitrariamente as faixas que influenciam nos valores. */
+
 public class Emprestimo {
         public static int getTresParcelas(){
             return 3;

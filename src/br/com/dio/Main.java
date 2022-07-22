@@ -20,6 +20,23 @@ public class Main {
         Emprestimo.calcular(5000, Emprestimo.getCincoParcelas());
         Emprestimo.calcular(5000, 10);
 
+        System.out.println("Quadrilátero");
+        Quadrilatero.area(3);
+        Quadrilatero.area(7,7);
+        Quadrilatero.area(7,5,8);
+
+
+        System.out.println("Retornos");
+
+        double areaQuadrado = QuadrilateroRetorno.area(3);
+        System.out.println("Área do quadrado: " + areaQuadrado);
+
+        double areaRetangulo = QuadrilateroRetorno.area(7, 7);
+        System.out.println("Área do retângulo: " + areaRetangulo);
+
+        double areaTrapezio = QuadrilateroRetorno.area(7, 8, 9);
+        System.out.println("Área do trapézio: " + areaTrapezio);
+
     }
 
 }
